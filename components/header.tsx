@@ -87,13 +87,13 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-sm text-[#211217]">🇦🇺 AU</span>
-            <button
+            {/* <span className="text-sm text-[#211217]">🇦🇺 AU</span> */}
+            {/* <button
               onClick={scrollToContact}
               className="text-sm text-[#211217] hover:text-[#755760] transition-colors"
             >
               Contact us
-            </button>
+            </button> */}
             <Button
               onClick={scrollToContact}
               variant="ghost"

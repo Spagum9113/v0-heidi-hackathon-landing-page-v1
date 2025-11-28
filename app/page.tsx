@@ -16,7 +16,7 @@ export default function HomePage() {
       <HowItWorksSection />
       <ImpactSection />
       <FutureVisionSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <CTASection />
     </main>
   )
