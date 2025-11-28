@@ -1,6 +1,14 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ChevronDown } from "lucide-react"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export function Header() {
   return (
@@ -18,6 +26,13 @@ export function Header() {
 }
 
 export function Navigation() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact")
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <nav className="sticky top-0 z-40 w-full bg-white border-b border-[#211217]/5">
       <div className="container mx-auto px-6">
@@ -27,29 +42,71 @@ export function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
-              Product <ChevronDown className="w-3.5 h-3.5" />
-            </button>
-            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
-              Specialties <ChevronDown className="w-3.5 h-3.5" />
-            </button>
-            <Link href="/pricing" className="text-sm text-[#211217] hover:text-[#755760] transition-colors">
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
+                Product <ChevronDown className="w-3.5 h-3.5" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start">
+                <DropdownMenuItem>Features</DropdownMenuItem>
+                <DropdownMenuItem>Integrations</DropdownMenuItem>
+                <DropdownMenuItem>Security</DropdownMenuItem>
+                <DropdownMenuItem>EMR Compatibility</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
+                Specialties <ChevronDown className="w-3.5 h-3.5" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start">
+                <DropdownMenuItem>Primary Care</DropdownMenuItem>
+                <DropdownMenuItem>Specialists</DropdownMenuItem>
+                <DropdownMenuItem>Hospitals</DropdownMenuItem>
+                <DropdownMenuItem>All Specialties</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <button
+              onClick={scrollToContact}
+              className="text-sm text-[#211217] hover:text-[#755760] transition-colors"
+            >
               Pricing
-            </Link>
-            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
-              Resources <ChevronDown className="w-3.5 h-3.5" />
             </button>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
+                Resources <ChevronDown className="w-3.5 h-3.5" />
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start">
+                <DropdownMenuItem>Documentation</DropdownMenuItem>
+                <DropdownMenuItem>Blog</DropdownMenuItem>
+                <DropdownMenuItem>Support</DropdownMenuItem>
+                <DropdownMenuItem>Case Studies</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           <div className="flex items-center gap-3">
             <span className="text-sm text-[#211217]">🇦🇺 AU</span>
-            <Link href="/contact" className="text-sm text-[#211217] hover:text-[#755760] transition-colors">
+            <button
+              onClick={scrollToContact}
+              className="text-sm text-[#211217] hover:text-[#755760] transition-colors"
+            >
               Contact us
-            </Link>
-            <Button asChild variant="ghost" className="text-sm bg-[#F9F4F1] text-[#211217] hover:text-[#755760] rounded-md px-6">
-              <Link href="/login">Log in</Link>
+            </button>
+            <Button
+              onClick={scrollToContact}
+              variant="ghost"
+              className="text-sm bg-[#F9F4F1] text-[#211217] hover:text-[#755760] rounded-md px-6"
+            >
+              Log in
             </Button>
-            <Button className="bg-[#FBF582] text-[#211217] hover:bg-[#FBF582]/90 rounded-md px-6">Sign up</Button>
+            <Button
+              onClick={scrollToContact}
+              className="bg-[#FBF582] text-[#211217] hover:bg-[#FBF582]/90 rounded-md px-6"
+            >
+              Sign up
+            </Button>
           </div>
         </div>
       </div>

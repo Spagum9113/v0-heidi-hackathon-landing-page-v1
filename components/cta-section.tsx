@@ -1,8 +1,17 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 
 export function CTASection() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact")
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
-    <section className="relative py-24 md:py-32 bg-[#FBF582] overflow-hidden rounded-t-[80px] border-2">
+    <section id="cta" className="relative py-24 md:py-32 bg-[#FBF582] overflow-hidden rounded-t-[80px] border-2">
       {/* Decorative curved shape */}
       <div className="absolute top-0 left-0 w-96 h-96 -translate-x-1/2 -translate-y-1/2">
         <div className="w-full h-full bg-sunlight/10 rounded-full blur-3xl" />
@@ -23,13 +32,8 @@ export function CTASection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-            {/* <Button
-              size="lg"
-              className="bg-[#211217] hover:bg-[#211217]/90 text-[#F9F4F1] font-semibold px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
-            >
-              Get started today
-            </Button> */}
             <Button
+              onClick={scrollToContact}
               size="lg"
               className="bg-[#211217] hover:bg-[#211217]/90 text-[#F9F4F1] font-semibold px-8 py-6 text-lg rounded-3xl shadow-lg hover:shadow-xl transition-all"
             >

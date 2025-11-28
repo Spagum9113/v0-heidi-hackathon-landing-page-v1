@@ -1,12 +1,21 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Plus } from "lucide-react"
 import { Navigation } from "./header"
 
 export function Hero() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact")
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" })
+    }
+  }
+
   return (
     <>
       <Navigation />
-      <section className="relative overflow-hidden bg-[#FCFAF8] py-20 md:py-32">
+      <section id="hero" className="relative overflow-hidden bg-[#FCFAF8] py-20 md:py-32">
         {/* Decorative plus symbols */}
         <Plus className="absolute top-20 left-[15%] w-4 h-4 text-[#211217]/20" />
         <Plus className="absolute top-32 right-[12%] w-5 h-5 text-[#211217]/15" />
@@ -22,11 +31,15 @@ export function Hero() {
               Move care <span className="italic">forward</span>.
             </h1>
 
-            <p className="mb-10 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
-              Your AI scribe capturing notes, summaries, and follow-ups as you go. By your side while care flows.
+            <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
+              We're bringing clinicians one step closer to Heidi's vision of zero-admin medicine with our <span className="font-semibold text-[#211217]">instant, predictive EMR automation</span>.
+            </p>
+            <p className="mb-10 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
+              Imagine if Heidi could complete tasks <span className="italic">before</span> you even think of them. Clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
             </p>
 
             <Button
+              onClick={scrollToContact}
               size="lg"
               className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2"
             >

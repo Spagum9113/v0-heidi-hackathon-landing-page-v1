@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function SolutionSection() {
   return (
-    <section className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
+    <section id="solution" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
         <div className="absolute top-20 right-20 text-sunlight">
@@ -72,7 +72,7 @@ export function SolutionSection() {
               </div>
               <h3 className="text-xl font-semibold text-inverted mb-3">Easy data transfer</h3>
               <p className="text-sand-100 leading-relaxed">
-                Effortless copying of all information between Heidi and your EMR with minimal clicks
+                Very easy copy and pasting of all information between Heidi and your EMR. No manual reformatting or rewriting needed.
               </p>
             </div>
           </div>

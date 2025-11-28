@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function FutureVisionSection() {
   return (
-    <section className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
+    <section id="future-vision" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
@@ -16,8 +16,12 @@ export function FutureVisionSection() {
             </h2>
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
-              We're building something revolutionary: an AI assistant that learns your patterns, predicts your needs,
+              We're building something revolutionary: <span className="font-semibold text-bark">Cluely and Cursor, but for doctors</span>. An AI assistant that learns your patterns, predicts your needs,
               and automates everything before you even think about it.
+            </p>
+            <p className="text-base text-secondary leading-relaxed">
+              Always watching and learning your clinical patterns, recognizing what you need before you know it. 
+              The system will learn over time and become more and more automated.
             </p>
 
             <div className="space-y-6 pt-4">
@@ -58,7 +62,7 @@ export function FutureVisionSection() {
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">Complete automation</h3>
                   <p className="text-secondary leading-relaxed">
-                    No more reliance on gatekeepers or exclusive partnerships. True clinical freedom
+                    No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
                   </p>
                 </div>
               </div>

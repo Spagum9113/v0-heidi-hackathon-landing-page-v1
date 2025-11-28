@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function ProblemSection() {
   return (
-    <section className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
+    <section id="problem" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -15,7 +15,10 @@ export function ProblemSection() {
             </h2>
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
               Every patient encounter requires tedious copying between systems, breaking clinical flow and increasing
-              the risk of errors.
+              the risk of errors. Clinicians are stuck with legacy EMRs that are slow and hard to connect with modern software.
+            </p>
+            <p className="text-base text-secondary leading-relaxed">
+              Best Practice (BP) has 70% of all Australian GPs using their system, but they're gatekept by exclusive partnerships with Lyrebird, limiting innovation and choice for clinicians.
             </p>
           </div>
 
@@ -34,7 +37,7 @@ export function ProblemSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">2-5 minutes per patient</h3>
-                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi to EMR systems</p>
+                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi to EMR systems (according to Gihan)</p>
                 </div>
               </div>
             </div>
@@ -73,6 +76,25 @@ export function ProblemSection() {
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">Higher error risk</h3>
                   <p className="text-secondary leading-relaxed">Manual reformatting creates security risks with PHI</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-bark mb-2">Gatekept by partnerships</h3>
+                  <p className="text-secondary leading-relaxed">Exclusive partnerships like BP and Lyrebird limit innovation and choice</p>
                 </div>
               </div>
             </div>

@@ -2,18 +2,18 @@ export function HowItWorksSection() {
     const steps = [
         {
             number: "01",
-            title: "Upload Your Data",
-            description: "Simply upload your healthcare documents, medical records, or patient data to our secure platform.",
+            title: "RPA Integration",
+            description: "Our RPA technology pulls and pushes information from any EMR desktop into Heidi without requiring complex integrations or APIs.",
         },
         {
             number: "02",
-            title: "AI Processing",
-            description: "Our advanced AI algorithms analyze and process your data using state-of-the-art machine learning models.",
+            title: "Local Processing",
+            description: "Everything runs locally on your device, ensuring maximum security and privacy for patient data. No cloud dependencies.",
         },
         {
             number: "03",
-            title: "Get Insights",
-            description: "Receive actionable insights, predictions, and recommendations in real-time to improve patient outcomes.",
+            title: "Seamless Transfer",
+            description: "Effortless data transfer between Heidi and your EMR with minimal clicks. Just review, confirm, and move forward.",
         },
     ]
 
@@ -103,7 +103,7 @@ export function HowItWorksSection() {
     ]
 
     return (
-        <section className="pt-32 pb-36 md:pb-40 bg-[#FCFAF8]">
+        <section id="how-it-works" className="pt-32 pb-36 md:pb-40 bg-[#FCFAF8]">
             <div className="container mx-auto px-4 max-w-6xl">
                 {/* Header */}
                 <div className="text-center mb-16">
@@ -111,7 +111,7 @@ export function HowItWorksSection() {
                         How It Works
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        Three simple steps to transform your healthcare data into actionable insights
+                        Instant, predictive EMR automation that works with any EMR system. No integrations needed.
                     </p>
                 </div>
 
@@ -149,35 +149,53 @@ export function HowItWorksSection() {
 
                 {/* Video Demo Placeholder */}
                 <div className="mb-24">
-                    <div className="bg-card border rounded-xl overflow-hidden">
-                        <div className="aspect-video bg-muted flex items-center justify-center">
-                            <div className="text-center">
-                                <div className="w-20 h-20 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
-                                    <svg
-                                        className="w-10 h-10 text-primary"
-                                        fill="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path d="M8 5v14l11-7z" />
-                                    </svg>
+                    <a
+                        href="https://loom.com/share/your-video-id"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block group cursor-pointer"
+                    >
+                        <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
+                            <div className="aspect-video bg-muted flex items-center justify-center relative group-hover:bg-muted/80 transition-colors">
+                                <div className="text-center relative z-10">
+                                    <div className="w-20 h-20 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                                        <svg
+                                            className="w-10 h-10 text-primary"
+                                            fill="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path d="M8 5v14l11-7z" />
+                                        </svg>
+                                    </div>
+                                    <p className="text-xl font-semibold mb-2">Watch Demo Video</p>
+                                    <p className="text-muted-foreground mb-2">
+                                        See our platform in action
+                                    </p>
+                                    <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">
+                                        Demo video coming soon
+                                    </span>
                                 </div>
-                                <p className="text-xl font-semibold mb-2">Watch Demo Video</p>
-                                <p className="text-muted-foreground">
-                                    See our platform in action
-                                </p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 {/* Tech Stack */}
                 <div>
-                    <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight text-center pt-20">
+                    <div className="text-center mb-6">
+                        <span className="inline-flex items-center gap-2 px-4 py-2 bg-sunlight/20 rounded-full text-sm font-semibold text-bark">
+                            ✓ Successfully integrated with Careflow
+                        </span>
+                    </div>
+                    <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight text-center pt-8">
                         Built with Modern Technology
                     </h2>
-                    <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                        Powered by the T3 Stack and cutting-edge technologies for maximum performance,
-                        type safety, and developer experience
+                    <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto">
+                        Powered by a robust tech stack and backend architecture designed for scalability and reliability
+                    </p>
+                    <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-sm">
+                        Scalable and reusable with other EMR systems because our RPA technology works at the desktop level, 
+                        independent of EMR-specific APIs or integrations. Once built for one EMR, the architecture easily adapts to others.
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
                         {techStack.map((tech, index) => (

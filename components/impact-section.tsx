@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function ImpactSection() {
   return (
-    <section className="relative py-20 md:py-28 bg-[#FCFAF8] overflow-hidden">
+    <section id="impact" className="relative py-20 md:py-28 bg-[#FCFAF8] overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="border border-sand-150 rounded-3xl p-8 md:p-12 lg:p-16 bg-white shadow-sm">
           <div className="text-center space-y-6 mb-16">
@@ -16,6 +16,9 @@ export function ImpactSection() {
             <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-3xl mx-auto">
               No more constant tab switching. Less clicks. Works with whatever EMR you're using. Safer for patient privacy
               and data security.
+            </p>
+            <p className="text-base text-secondary leading-relaxed max-w-3xl mx-auto font-medium">
+              Clinician experience becomes: <span className="text-bark font-semibold">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
             </p>
           </div>
 
