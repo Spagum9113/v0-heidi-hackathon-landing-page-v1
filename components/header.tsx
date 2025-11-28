@@ -42,7 +42,7 @@ export function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
                 Product <ChevronDown className="w-3.5 h-3.5" />
               </DropdownMenuTrigger>
@@ -54,7 +54,7 @@ export function Navigation() {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
                 Specialties <ChevronDown className="w-3.5 h-3.5" />
               </DropdownMenuTrigger>
@@ -73,7 +73,7 @@ export function Navigation() {
               Pricing
             </button>
 
-            <DropdownMenu>
+            <DropdownMenu modal={false}>
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors outline-none">
                 Resources <ChevronDown className="w-3.5 h-3.5" />
               </DropdownMenuTrigger>

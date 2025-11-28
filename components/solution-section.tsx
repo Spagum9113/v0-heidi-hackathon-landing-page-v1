@@ -3,15 +3,19 @@ import { Sparkle } from 'lucide-react'
 export function SolutionSection() {
   return (
     <section id="solution" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
-      {/* Decorative elements */}
+      {/* Animated decorative elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
-        <div className="absolute top-20 right-20 text-sunlight">
+        <div className="absolute top-20 right-20 text-sunlight animate-[drift_20s_ease-in-out_infinite]">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="currentColor">
             <path d="M20 0L22 18L20 40L18 18L20 0Z" />
             <path d="M0 20L18 18L40 20L18 22L0 20Z" />
           </svg>
         </div>
       </div>
+      
+      {/* Animated gradient blobs */}
+      <div className="absolute top-1/4 left-0 w-72 h-72 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '3s' }} />
+      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '7s' }} />
 
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
