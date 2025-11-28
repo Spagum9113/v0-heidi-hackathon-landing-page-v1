@@ -103,8 +103,12 @@ export function HowItWorksSection() {
     ]
 
     return (
-        <section id="how-it-works" className="pt-32 pb-36 md:pb-40 bg-[#FCFAF8]">
-            <div className="container mx-auto px-4 max-w-6xl">
+        <section id="how-it-works" className="relative pt-32 pb-36 md:pb-40 bg-[#FCFAF8] overflow-hidden">
+            {/* Animated gradient blobs */}
+            <div className="absolute top-0 right-1/3 w-96 h-96 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
+            <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
+            
+            <div className="container mx-auto px-4 max-w-6xl relative z-10">
                 {/* Header */}
                 <div className="text-center mb-16">
                     <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight">
@@ -118,18 +122,18 @@ export function HowItWorksSection() {
                 {/* Steps */}
                 <div className="grid md:grid-cols-3 gap-8 mb-20 pb-28">
                     {steps.map((step, index) => (
-                        <div key={index} className="relative">
-                            <div className="bg-card border rounded-lg p-8 h-full hover:shadow-lg transition-shadow">
-                                <div className="text-6xl font-bold text-primary/20 mb-4">
+                        <div key={index} className="relative group">
+                            <div className="bg-card border rounded-lg p-8 h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary/30">
+                                <div className="text-6xl font-bold text-primary/20 mb-4 transition-all duration-300 group-hover:text-primary/30 group-hover:scale-110">
                                     {step.number}
                                 </div>
-                                <h3 className="font-serif text-2xl font-semibold mb-3">{step.title}</h3>
-                                <p className="text-muted-foreground">{step.description}</p>
+                                <h3 className="font-serif text-2xl font-semibold mb-3 transition-colors duration-300 group-hover:text-primary">{step.title}</h3>
+                                <p className="text-muted-foreground transition-colors duration-300 group-hover:text-foreground">{step.description}</p>
                             </div>
                             {index < steps.length - 1 && (
-                                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-1">
                                     <svg
-                                        className="w-8 h-8 text-primary/30"
+                                        className="w-8 h-8 text-primary/30 transition-colors duration-300 group-hover:text-primary/50"
                                         fill="none"
                                         stroke="currentColor"
                                         viewBox="0 0 24 24"
@@ -201,13 +205,13 @@ export function HowItWorksSection() {
                         {techStack.map((tech, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col items-center text-center group"
+                                className="flex flex-col items-center text-center group cursor-pointer"
                             >
-                                <div className="mb-3 transition-transform group-hover:scale-110">
+                                <div className="mb-3 transition-all duration-300 group-hover:scale-125 group-hover:rotate-6">
                                     {tech.icon}
                                 </div>
-                                <h4 className="font-semibold mb-1">{tech.name}</h4>
-                                <p className="text-sm text-muted-foreground">
+                                <h4 className="font-semibold mb-1 transition-colors duration-300 group-hover:text-primary">{tech.name}</h4>
+                                <p className="text-sm text-muted-foreground transition-colors duration-300 group-hover:text-foreground">
                                     {tech.description}
                                 </p>
                             </div>

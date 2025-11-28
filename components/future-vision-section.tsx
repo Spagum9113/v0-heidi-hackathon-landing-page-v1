@@ -28,55 +28,55 @@ export function FutureVisionSection() {
               The system will learn over time and become more and more automated.
             </p>
 
-            <div className="space-y-6 pt-4">
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Always learning</h3>
-                  <p className="text-secondary leading-relaxed">
-                    Continuously watching and understanding your clinical patterns to become more intelligent over time
-                  </p>
-                </div>
-              </div>
+                <div className="space-y-6 pt-4">
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+                    <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                      <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Always learning</h3>
+                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                        Continuously watching and understanding your clinical patterns to become more intelligent over time
+                      </p>
+                    </div>
+                  </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Predictive actions</h3>
-                  <p className="text-secondary leading-relaxed">
-                    Anticipates what you need before you know it. All you do is review, confirm, and move forward
-                  </p>
-                </div>
-              </div>
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+                    <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                      <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Predictive actions</h3>
+                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                        Anticipates what you need before you know it. All you do is review, confirm, and move forward
+                      </p>
+                    </div>
+                  </div>
 
-              <div className="flex gap-4">
-                <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1">
-                  <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+                    <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                      <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Complete automation</h3>
+                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                        No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Complete automation</h3>
-                  <p className="text-secondary leading-relaxed">
-                    No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="relative">
-            <div className="bg-bark rounded-3xl p-12 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-sunlight/10 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 left-0 w-64 h-64 bg-sky/10 rounded-full blur-3xl" />
+            <div className="bg-bark rounded-3xl p-12 relative overflow-hidden transition-all duration-300 hover:shadow-2xl">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-sunlight/10 rounded-full blur-3xl animate-[gradientShift_20s_ease-in-out_infinite]" />
+              <div className="absolute bottom-0 left-0 w-64 h-64 bg-sky/10 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '5s' }} />
 
               <div className="relative z-10 space-y-8">
                 <div className="space-y-4">

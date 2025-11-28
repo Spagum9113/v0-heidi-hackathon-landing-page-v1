@@ -50,9 +50,9 @@ export function Hero() {
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2"
+              className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2 transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
             >
-              <Plus className="w-5 h-5" />
+              <Plus className="w-5 h-5 transition-transform duration-300 group-hover:rotate-90" />
               Get Heidi free
             </Button>
           </div>

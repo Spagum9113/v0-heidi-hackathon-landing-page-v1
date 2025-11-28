@@ -3,7 +3,11 @@ import { Sparkle } from 'lucide-react'
 export function ProblemSection() {
   return (
     <section id="problem" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
-      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+      {/* Animated gradient blobs */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_22s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
+      
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-bark/5 rounded-full">
@@ -23,9 +27,9 @@ export function ProblemSection() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -42,9 +46,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -61,9 +65,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -80,9 +84,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
