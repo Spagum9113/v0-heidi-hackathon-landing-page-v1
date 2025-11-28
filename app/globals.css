@@ -5,14 +5,14 @@
 
 :root {
   /* Heidi brand colors converted to oklch */
-  --background: 97.5% 0.01 75; /* Sand 50: #F9F4F1 */
+  --background: #F9F4F1; /* Sand 50 */
   --foreground: 16% 0.02 345; /* Bark: #211217 */
   --card: 98.5% 0.005 75; /* Sand 25: #FCFAF8 */
   --card-foreground: 16% 0.02 345;
   --popover: 98.5% 0.005 75;
   --popover-foreground: 16% 0.02 345;
   --primary: 16% 0.02 345; /* Bark */
-  --primary-foreground: 97.5% 0.01 75; /* Sand 50 */
+  --primary-foreground: #F9F4F1; /* Sand 50 */
   --secondary: 95% 0.015 75; /* Sand 100: #F6ECE4 */
   --secondary-foreground: 16% 0.02 345;
   --muted: 95% 0.015 75;
@@ -30,10 +30,10 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.75rem;
-  --sidebar: 97.5% 0.01 75;
+  --sidebar: #F9F4F1;
   --sidebar-foreground: 16% 0.02 345;
   --sidebar-primary: 16% 0.02 345;
-  --sidebar-primary-foreground: 97.5% 0.01 75;
+  --sidebar-primary-foreground: #F9F4F1;
   --sidebar-accent: 95% 0.015 75;
   --sidebar-accent-foreground: 16% 0.02 345;
   --sidebar-border: 94% 0.02 75;
