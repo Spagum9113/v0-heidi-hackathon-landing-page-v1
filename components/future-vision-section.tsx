@@ -1,10 +1,13 @@
+import { Sparkle } from 'lucide-react'
+
 export function FutureVisionSection() {
   return (
-    <section className="relative py-24 md:py-32 bg-sand-50 overflow-hidden">
+    <section className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
-            <div className="inline-block px-4 py-2 bg-bark/5 rounded-full">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-bark/5 rounded-full">
+              <Sparkle className="w-4 h-4 text-bark" />
               <p className="text-sm font-semibold text-bark">Future Vision</p>
             </div>
 

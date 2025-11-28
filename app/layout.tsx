@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable}`}>
-      <body className="font-sans antialiased">
+      <body className="font-sans antialiased bg-[#FCFAF8]">
         {children}
         <Analytics />
       </body>

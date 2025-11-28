@@ -103,7 +103,7 @@ export function HowItWorksSection() {
     ]
 
     return (
-        <section className="py-24 bg-gradient-to-b from-background to-muted/20">
+        <section className="pt-32 pb-36 md:pb-40 bg-[#FCFAF8]">
             <div className="container mx-auto px-4 max-w-6xl">
                 {/* Header */}
                 <div className="text-center mb-16">
@@ -116,7 +116,7 @@ export function HowItWorksSection() {
                 </div>
 
                 {/* Steps */}
-                <div className="grid md:grid-cols-3 gap-8 mb-24">
+                <div className="grid md:grid-cols-3 gap-8 mb-20 pb-28">
                     {steps.map((step, index) => (
                         <div key={index} className="relative">
                             <div className="bg-card border rounded-lg p-8 h-full hover:shadow-lg transition-shadow">
@@ -172,7 +172,7 @@ export function HowItWorksSection() {
 
                 {/* Tech Stack */}
                 <div>
-                    <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight text-center">
+                    <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight text-center pt-20">
                         Built with Modern Technology
                     </h2>
                     <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">

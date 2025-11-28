@@ -19,7 +19,7 @@ export function Header() {
 
 export function Navigation() {
   return (
-    <nav className="sticky top-0 z-40 w-full bg-[#F9F4F1] border-b border-[#211217]/5">
+    <nav className="sticky top-0 z-40 w-full bg-white border-b border-[#211217]/5">
       <div className="container mx-auto px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-[#211217]">
@@ -27,17 +27,17 @@ export function Navigation() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            <button className="flex items-center gap-1 text-[#211217] hover:text-[#755760] transition-colors">
-              Product <ChevronDown className="w-4 h-4" />
+            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
+              Product <ChevronDown className="w-3.5 h-3.5" />
             </button>
-            <button className="flex items-center gap-1 text-[#211217] hover:text-[#755760] transition-colors">
-              Specialties <ChevronDown className="w-4 h-4" />
+            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
+              Specialties <ChevronDown className="w-3.5 h-3.5" />
             </button>
-            <Link href="/pricing" className="text-[#211217] hover:text-[#755760] transition-colors">
+            <Link href="/pricing" className="text-sm text-[#211217] hover:text-[#755760] transition-colors">
               Pricing
             </Link>
-            <button className="flex items-center gap-1 text-[#211217] hover:text-[#755760] transition-colors">
-              Resources <ChevronDown className="w-4 h-4" />
+            <button className="flex items-center gap-1 text-sm text-[#211217] hover:text-[#755760] transition-colors">
+              Resources <ChevronDown className="w-3.5 h-3.5" />
             </button>
           </div>
 
@@ -46,10 +46,10 @@ export function Navigation() {
             <Link href="/contact" className="text-sm text-[#211217] hover:text-[#755760] transition-colors">
               Contact us
             </Link>
-            <Link href="/login" className="text-sm text-[#211217] hover:text-[#755760] transition-colors">
-              Log in
-            </Link>
-            <Button className="bg-[#FBF582] text-[#211217] hover:bg-[#FBF582]/90 rounded-full px-6">Sign up</Button>
+            <Button asChild variant="ghost" className="text-sm bg-[#F9F4F1] text-[#211217] hover:text-[#755760] rounded-md px-6">
+              <Link href="/login">Log in</Link>
+            </Button>
+            <Button className="bg-[#FBF582] text-[#211217] hover:bg-[#FBF582]/90 rounded-md px-6">Sign up</Button>
           </div>
         </div>
       </div>
