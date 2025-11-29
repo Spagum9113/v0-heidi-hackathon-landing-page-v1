@@ -23,7 +23,7 @@ export function ProblemSection() {
               the risk of errors. Clinicians are stuck with legacy EMRs that are slow and hard to connect with modern software.
             </p>
             <p className="text-base text-secondary leading-relaxed">
-              Best Practice (BP) has 70% of all Australian GPs using their system, but they're gatekept by exclusive partnerships with Lyrebird, limiting innovation and choice for clinicians.
+              *Best Practice (BP) has 70% of all Australian GPs using their system, but they're gatekept by exclusive partnerships with Lyrebird, limiting innovation and choice for clinicians.
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export function ProblemSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">Gatekept by partnerships</h3>
-                  <p className="text-secondary leading-relaxed">Exclusive partnerships like BP and Lyrebird limit innovation and choice</p>
+                  <p className="text-secondary leading-relaxed">Exclusive partnerships like Best Practice* and Lyrebird limit innovation and choice</p>
                 </div>
               </div>
             </div>

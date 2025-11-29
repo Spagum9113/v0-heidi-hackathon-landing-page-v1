@@ -18,7 +18,7 @@ export function ImpactSection() {
               and data security.
             </p>
             <p className="text-base text-secondary leading-relaxed max-w-3xl mx-auto font-medium">
-              Clinician experience becomes: <span className="text-bark font-semibold">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
+              The clinician experience becomes: <span className="text-bark font-semibold">TAB → TAB → Confirm</span> allowing clinician's to get time back and move care forward.
             </p>
           </div>
 

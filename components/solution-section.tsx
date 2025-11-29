@@ -77,7 +77,7 @@ export function SolutionSection() {
               </div>
               <h3 className="text-xl font-semibold text-inverted mb-3">Easy data transfer</h3>
               <p className="text-sand-100 leading-relaxed">
-                Very easy copy and pasting of all information between Heidi Health and your EMR. No manual reformatting or rewriting needed.
+                Automated copy and paste for all information between Heidi and your EMR. No manual reformatting or rewriting needed.
               </p>
             </div>
           </div>

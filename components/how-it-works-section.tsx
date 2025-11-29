@@ -22,25 +22,9 @@ export function HowItWorksSection() {
             name: "Next.js",
             description: "React Framework",
             icon: (
-                <svg className="w-12 h-12" viewBox="0 0 180 180" fill="none">
-                    <mask id="mask0" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="180">
-                        <circle cx="90" cy="90" r="90" fill="black" />
-                    </mask>
-                    <g mask="url(#mask0)">
-                        <circle cx="90" cy="90" r="90" fill="currentColor" />
-                        <path d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z" fill="url(#paint0_linear)" />
-                        <rect x="115" y="54" width="12" height="72" fill="url(#paint1_linear)" />
-                    </g>
-                    <defs>
-                        <linearGradient id="paint0_linear" x1="109" y1="116.5" x2="144.5" y2="160.5" gradientUnits="userSpaceOnUse">
-                            <stop stopColor="white" />
-                            <stop offset="1" stopColor="white" stopOpacity="0" />
-                        </linearGradient>
-                        <linearGradient id="paint1_linear" x1="121" y1="54" x2="120.799" y2="106.875" gradientUnits="userSpaceOnUse">
-                            <stop stopColor="white" />
-                            <stop offset="1" stopColor="white" stopOpacity="0" />
-                        </linearGradient>
-                    </defs>
+                <svg className="w-12 h-12" viewBox="0 0 394 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0zm-81.1 0h17.8l63.6 66.6-8.5 8.8-63.6-66.6v57.8h-13.6V0h4.3zm-18.1 0h17.8v79.4h-17.8V0zm-40.8 0h68.5v12.7h-27.2v66.6h-13.6V12.7h-27.7V0zm-40.7 0h17.8v66.6h45.5v12.8h-63.3V0zm-27.3 12.7h13.6v53.9h-13.6V12.7zm-21.7 0h17.8l8.5 8.8-8.5 8.9-17.8-17.7zm-4.3-12.7h17.8v79.4h-13.6l-53.1-55.1v55.1H0V0h13.6l53.1 55.1V0z" fill="currentColor"/>
+                    <path d="M81.1 0l-8.5 8.8 8.5 8.9 8.5-8.9L81.1 0z" fill="currentColor"/>
                 </svg>
             ),
         },
