@@ -88,8 +88,12 @@ export function Hero() {
               <span className="font-semibold text-[#211217]">Hailey</span>, our instant, predictive, automated EMR assistant
             </p>
             <p className="mb-10 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
-              Imagine if Hailey could complete tasks <span className="italic">before</span> you even think of them. Clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
+              Imagine if Hailey could complete tasks <span className="italic">before</span> you even think of them.
             </p>
+            <div className="mb-10 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty space-y-2">
+              <p>* The clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span></p>
+              <p>* allowing clinician's to get time back and move care forward.</p>
+            </div>
 
             <Button
               onClick={scrollToContact}
