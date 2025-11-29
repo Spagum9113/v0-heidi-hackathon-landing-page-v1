@@ -77,8 +77,8 @@ export function Hero() {
             <p className="mb-8 text-sm text-[#755760] tracking-wide">AI trusted and loved by clinicians</p>
 
             <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] tracking-tight text-[#211217] text-balance">
-              Help doctors cheat on <span className="italic">time</span>. <br className="hidden md:block" />
-              Cluely for <span className="italic">clinicians</span>.
+              Get <span className="italic">MORE</span> time back. <br className="hidden md:block" />
+              Move <span className="italic">BETTER</span> care forward.
             </h1>
 
             <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
