@@ -37,7 +37,7 @@ export function Hero() {
         <div className="absolute top-1/2 right-0 w-96 h-96 bg-[#4A90E2]/15 blur-3xl animate-[morph_25s_ease-in-out_infinite]" style={{ animationDelay: '5s' }} />
         <div className="absolute bottom-0 left-1/3 w-80 h-80 bg-[#2D8659]/10 blur-3xl animate-[morph_30s_ease-in-out_infinite]" style={{ animationDelay: '10s' }} />
         <div className="absolute top-1/3 right-1/4 w-72 h-72 bg-[#FBF582]/20 blur-3xl animate-[morph_22s_ease-in-out_infinite]" style={{ animationDelay: '3s' }} />
-        
+
         {/* Subtle decorative stars (x's) - Heidi style */}
         <div className="absolute top-24 left-[12%] w-3 h-3 text-[#211217]/15 animate-[starTwinkle_4s_ease-in-out_infinite]">
           <svg viewBox="0 0 24 24" fill="currentColor">
@@ -59,13 +59,13 @@ export function Hero() {
             <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
           </svg>
         </div>
-        
+
         {/* Animated decorative plus symbols with gentle float */}
         <Plus className="absolute top-20 left-[15%] w-4 h-4 text-[#211217]/20 animate-[gentleFloat_8s_ease-in-out_infinite]" />
         <Plus className="absolute top-32 right-[12%] w-5 h-5 text-[#211217]/15 animate-[gentleFloat_10s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
         <Plus className="absolute bottom-40 left-[18%] w-4 h-4 text-[#211217]/20 animate-[gentleFloat_9s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
         <Plus className="absolute bottom-32 right-[20%] w-6 h-6 text-[#211217]/10 animate-[gentleFloat_11s_ease-in-out_infinite]" style={{ animationDelay: '1s' }} />
-        
+
         {/* Additional floating dots with pulse */}
         <div className="absolute top-1/4 right-[10%] w-2 h-2 bg-[#211217]/10 rounded-full animate-[pulse_4s_ease-in-out_infinite]" />
         <div className="absolute bottom-1/4 left-[25%] w-3 h-3 bg-[#211217]/8 rounded-full animate-[pulse_5s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
@@ -77,8 +77,8 @@ export function Hero() {
             <p className="mb-8 text-sm text-[#755760] tracking-wide">AI trusted and loved by clinicians</p>
 
             <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] tracking-tight text-[#211217] text-balance">
-              Get <span className="italic">MORE</span> time back. <br className="hidden md:block" />
-              Move <span className="italic">BETTER</span> care forward.
+              Get <span className="italic">more</span> time back. <br className="hidden md:block" />
+              Move <span className="italic">better</span> care forward.
             </h1>
 
             <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">

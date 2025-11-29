@@ -23,8 +23,8 @@ export function HowItWorksSection() {
             description: "React Framework",
             icon: (
                 <svg className="w-12 h-12" viewBox="0 0 394 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0zm-81.1 0h17.8l63.6 66.6-8.5 8.8-63.6-66.6v57.8h-13.6V0h4.3zm-18.1 0h17.8v79.4h-17.8V0zm-40.8 0h68.5v12.7h-27.2v66.6h-13.6V12.7h-27.7V0zm-40.7 0h17.8v66.6h45.5v12.8h-63.3V0zm-27.3 12.7h13.6v53.9h-13.6V12.7zm-21.7 0h17.8l8.5 8.8-8.5 8.9-17.8-17.7zm-4.3-12.7h17.8v79.4h-13.6l-53.1-55.1v55.1H0V0h13.6l53.1 55.1V0z" fill="currentColor"/>
-                    <path d="M81.1 0l-8.5 8.8 8.5 8.9 8.5-8.9L81.1 0z" fill="currentColor"/>
+                    <path d="M262 0h68.5v12.7h-27.2v66.6h-13.6V12.7H262V0zm-81.1 0h17.8l63.6 66.6-8.5 8.8-63.6-66.6v57.8h-13.6V0h4.3zm-18.1 0h17.8v79.4h-17.8V0zm-40.8 0h68.5v12.7h-27.2v66.6h-13.6V12.7h-27.7V0zm-40.7 0h17.8v66.6h45.5v12.8h-63.3V0zm-27.3 12.7h13.6v53.9h-13.6V12.7zm-21.7 0h17.8l8.5 8.8-8.5 8.9-17.8-17.7zm-4.3-12.7h17.8v79.4h-13.6l-53.1-55.1v55.1H0V0h13.6l53.1 55.1V0z" fill="currentColor" />
+                    <path d="M81.1 0l-8.5 8.8 8.5 8.9 8.5-8.9L81.1 0z" fill="currentColor" />
                 </svg>
             ),
         },
@@ -143,7 +143,7 @@ export function HowItWorksSection() {
             <div className="absolute top-0 right-1/3 w-96 h-96 bg-[#FBF582]/12 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
             <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-[#4A90E2]/10 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
             <div className="absolute top-1/3 left-1/2 w-72 h-72 bg-[#2D8659]/8 rounded-full blur-3xl animate-[gradientShift_24s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
-            
+
             <div className="container mx-auto px-4 max-w-6xl relative z-10">
                 {/* Header */}
                 <div className="text-center mb-16">
@@ -192,7 +192,7 @@ export function HowItWorksSection() {
                     <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
                         <div className="aspect-video relative bg-black rounded-xl overflow-hidden">
                             <iframe
-                                src="https://www.loom.com/embed/7afb75ed4c4c4c2ebe5e8fbc8bddfa7a"
+                                src="https://www.loom.com/embed/e3c40d05622b4e3e9d37e1d9eb585157"
                                 frameBorder="0"
                                 allowFullScreen
                                 className="absolute inset-0 w-full h-full"
@@ -216,7 +216,7 @@ export function HowItWorksSection() {
                         Powered by a robust tech stack and backend architecture designed for scalability and reliability
                     </p>
                     <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto text-sm">
-                        Scalable and reusable with other EMR systems because our RPA technology works at the desktop level, 
+                        Scalable and reusable with other EMR systems because our RPA technology works at the desktop level,
                         independent of EMR-specific APIs or integrations. Once built for one EMR, the architecture easily adapts to others.
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
