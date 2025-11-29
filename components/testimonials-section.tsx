@@ -46,10 +46,6 @@ export function TestimonialsSection() {
               <p className="text-lg md:text-xl leading-relaxed font-medium">
                 Hailey has transformed how we work. What used to take 2-5 minutes per patient now takes seconds. We see Hailey as a partner helping us deliver measurable transformation to our practice, making us more resilient as we face the many challenges in healthcare.
               </p>
-              <div className="pt-4 border-t border-bark/20">
-                <p className="font-semibold text-bark">Dr. Sarah Chen</p>
-                <p className="text-sm text-bark/70">General Practitioner, Melbourne</p>
-              </div>
             </div>
           </div>
 
