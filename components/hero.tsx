@@ -89,7 +89,7 @@ export function Hero() {
             </p>
 
             <Button
-              onClick={scrollToContact}
+              onClick={() => window.open('https://github.com/nguyenhoangminh1106/heidi-cursor', '_blank')}
               size="lg"
               className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2 transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
             >
