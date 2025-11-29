@@ -7,7 +7,7 @@ export function FutureVisionSection() {
       <div className="absolute top-0 right-1/4 w-80 h-80 bg-[#FBF582]/12 rounded-full blur-3xl animate-[gradientShift_28s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
       <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-[#4A90E2]/10 rounded-full blur-3xl animate-[gradientShift_32s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
       <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-[#2D8659]/8 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
-      
+
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
@@ -25,53 +25,56 @@ export function FutureVisionSection() {
               and automates everything before you even think about it.
             </p>
             <p className="text-base text-secondary leading-relaxed">
-              Always watching and learning your clinical patterns, recognizing what you need before you know it. 
+              Always watching and learning your clinical patterns, recognizing what you need before you know it.
               The system will learn over time and become more and more automated.
             </p>
 
-                <div className="space-y-6 pt-4">
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                      <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Always learning</h3>
-                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        Continuously watching and understanding your clinical patterns to become more intelligent over time
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                      <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Predictive actions</h3>
-                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        Anticipates what you need before you know it. All you do is review, confirm, and move forward
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                      <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Complete automation</h3>
-                      <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
-                      </p>
-                    </div>
-                  </div>
+            <div className="space-y-6 pt-4">
+              <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+                <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                  <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
                 </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Always learning</h3>
+                  <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                    Continuously watching and understanding your clinical patterns to become more intelligent over time
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+                <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                  <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Predictive actions</h3>
+                  <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                    Anticipates what you need before you know it. All you do is review, confirm, and move forward
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
+
+
+                <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Complete automation</h3>
+                  <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
+                    No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="relative">
