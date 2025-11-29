@@ -192,7 +192,8 @@ export function HowItWorksSection() {
                     <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
                         <div className="aspect-video relative bg-black rounded-xl overflow-hidden">
                             <iframe
-                                src="https://www.loom.com/embed/7afb75ed4c4c4c2ebe5e8fbc8bddfa7a"
+                                key="loom-demo-video"
+                                src="https://www.loom.com/embed/e3c40d05622b4e3e9d37e1d9eb585157"
                                 frameBorder="0"
                                 allowFullScreen
                                 className="absolute inset-0 w-full h-full"
