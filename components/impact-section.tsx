@@ -14,7 +14,7 @@ export function ImpactSection() {
               Clinicians get their time <span className="italic">back</span>.
             </h2>
             <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-3xl mx-auto">
-              No more constant tab switching. Less clicks. Works with whatever EMR you're using. Safer for patient privacy
+              No more constant context switching. Less clicks. Works with whatever EMR you're using. Safer for patient privacy
               and data security.
             </p>
             <p className="text-base text-secondary leading-relaxed max-w-3xl mx-auto font-medium">

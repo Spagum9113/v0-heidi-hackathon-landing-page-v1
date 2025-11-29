@@ -76,7 +76,7 @@ export function ProblemSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Constant tab switching</h3>
+                  <h3 className="text-xl font-semibold text-bark mb-2">Constant context switching</h3>
                   <p className="text-secondary leading-relaxed">Breaking clinical flow and concentration</p>
                 </div>
               </div>
