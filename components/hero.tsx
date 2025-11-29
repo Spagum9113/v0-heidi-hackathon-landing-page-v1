@@ -84,9 +84,6 @@ export function Hero() {
             <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
               We're bringing clinicians one step closer to Heidi's vision of zero-admin medicine with <span className="font-semibold text-[#211217]">Hailey</span>, our <span className="font-semibold text-[#211217]">instant, predictive EMR automation</span>.
             </p>
-            <p className="mb-6 text-base text-[#755760] italic leading-relaxed max-w-2xl mx-auto text-pretty">
-              <span className="font-semibold text-[#211217]">Hailey</span>, our instant, predictive, automated EMR assistant
-            </p>
             <p className="mb-10 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
               Imagine if Hailey could complete tasks <span className="italic">before</span> you even think of them. Clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
             </p>
