@@ -327,6 +327,72 @@
   }
 }
 
+@keyframes drawPath {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0.6;
+  }
+}
+
+@keyframes cursorMove {
+  0% {
+    left: 12.5%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  5% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  25% {
+    left: 37.5%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    left: 62.5%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  75% {
+    left: 87.5%;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pathGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px rgba(251, 245, 130, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 8px rgba(251, 245, 130, 0.6));
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
