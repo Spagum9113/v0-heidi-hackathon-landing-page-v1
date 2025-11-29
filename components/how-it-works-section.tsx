@@ -187,37 +187,19 @@ export function HowItWorksSection() {
                     ))}
                 </div>
 
-                {/* Video Demo Placeholder */}
+                {/* Video Demo */}
                 <div className="mb-24">
-                    <a
-                        href="https://loom.com/share/your-video-id"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block group cursor-pointer"
-                    >
-                        <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
-                            <div className="aspect-video bg-muted flex items-center justify-center relative group-hover:bg-muted/80 transition-colors">
-                                <div className="text-center relative z-10">
-                                    <div className="w-20 h-20 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                                        <svg
-                                            className="w-10 h-10 text-primary"
-                                            fill="currentColor"
-                                            viewBox="0 0 24 24"
-                                        >
-                                            <path d="M8 5v14l11-7z" />
-                                        </svg>
-                                    </div>
-                                    <p className="text-xl font-semibold mb-2">Watch Demo Video</p>
-                                    <p className="text-muted-foreground mb-2">
-                                        See our platform in action
-                                    </p>
-                                    <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary/10 text-primary text-sm rounded-full">
-                                        Demo video coming soon
-                                    </span>
-                                </div>
-                            </div>
+                    <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
+                        <div className="aspect-video relative bg-black rounded-xl overflow-hidden">
+                            <iframe
+                                src="https://www.loom.com/embed/7afb75ed4c4c4c2ebe5e8fbc8bddfa7a"
+                                frameBorder="0"
+                                allowFullScreen
+                                className="absolute inset-0 w-full h-full"
+                                title="Hailey Demo Video"
+                            />
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 {/* Tech Stack */}
